@@ -11,3 +11,5 @@ Esta máquina permite la somulación paso a paso del proceso porductivo de una f
 ### Estructura del código
 El código está estructurado en una clase llamada FabricaChocolate. En ella se definen los atributos que vendrían representando los tanques con los ingredientes principales para hacer chocolate y la cantidad que hay en cada tanque. 
 
+
+
