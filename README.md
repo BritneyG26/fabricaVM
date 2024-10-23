@@ -11,5 +11,17 @@ Esta máquina permite la somulación paso a paso del proceso porductivo de una f
 ### Estructura del código
 El código está estructurado en una clase llamada FabricaChocolate. En ella se definen los atributos que vendrían representando los tanques con los ingredientes principales para hacer chocolate y la cantidad que hay en cada tanque. 
 
+![Codigo](https://github.com/BritneyG26/fabricaVM/blob/main/cap1.png)
+
+- Funcion procesar_instrucciones:
+  
+La función recibe una línea de texto que representa una instrucción.
+
+Se verifica si la instrucción contiene la palabra "añadir" y si la encuentra se llama al método añadir_ingrediente con la cantidad y el ingrediente.
+
+Si encuentra la palabra "crear" se llama al método mezclar_ingredientes, que se encarga de mezclar los ingredientes.
+
+Si se encuentra la palabra "cantidad" se actualiza la cantidad de chocolate producido, suamndo la cantidad especificada.
+
 
 
