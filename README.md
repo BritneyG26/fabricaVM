@@ -41,6 +41,13 @@ Hay diferentes secciones para cada ingrediente:
 
 Esta función es el núcleo operativo de la máquina de chocolate. Se encarga de iniciar la máquina, porcesar instrucciones del archivo de texto y generar log de todas las acciones realizadas. Puede verse como el ciclo de procesamiento que recibe las intrucciones y las ejecuta de manera secuencial, como si estuviera desapilando las intrucciones hasta que no quede ninguna.
 
+![Codigo](https://github.com/BritneyG26/fabricaVM/blob/main/cap4.png)
+
+Al final, la máquina porcesa todas las instrucciones y actualiza los refistros que quedan disponibles.
+
+![Codigo]()
+
+
 
 
 
