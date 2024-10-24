@@ -23,5 +23,26 @@ Si encuentra la palabra "crear" se llama al método mezclar_ingredientes, que se
 
 Si se encuentra la palabra "cantidad" se actualiza la cantidad de chocolate producido, suamndo la cantidad especificada.
 
+![Codigo](https://github.com/BritneyG26/fabricaVM/blob/main/cap2.png)
+
+- Función añadir_ingredientes
+
+Esta función se encarga de gestionar la adición de distintos ingredeintes a la máquina de chocolate. 
+La función evalúa el tipo de ingrediente que se quiere añadir utilizando la condicional if.
+
+Hay diferentes secciones para cada ingrediente:
+1. Cacao en polvo donde comprueba si hay cacao en polvo disponible y si hay suficiente, se resta la cantidad utilizada. Si no hay, pone Error.
+2. Lo mismo pasa con la leche en polvo, azúcar y manteca de cacao. Cada ingrediente tiene su porpia sección que verifica la disponibilidad y realiza la resta.
+3. Ingredientes adicionales donde si el ingrediente no coincide con ningunon de los tipos anterioires, se considera como un ingrediente adicional. Comprueba si hay la cantidad suficiente y realiza la resta. Si no hay, pone Error.
+
+- Función ejecutar
+
+Esta función es el núcleo operativo de la máquina de chocolate. Se encarga de iniciar la máquina, porcesar instrucciones del archivo de texto y generar log de todas las acciones realizadas.
+
+
+
+
+
+
 
 
