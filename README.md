@@ -35,9 +35,11 @@ Hay diferentes secciones para cada ingrediente:
 2. Lo mismo pasa con la leche en polvo, azúcar y manteca de cacao. Cada ingrediente tiene su porpia sección que verifica la disponibilidad y realiza la resta.
 3. Ingredientes adicionales donde si el ingrediente no coincide con ningunon de los tipos anterioires, se considera como un ingrediente adicional. Comprueba si hay la cantidad suficiente y realiza la resta. Si no hay, pone Error.
 
+![Codigo](https://github.com/BritneyG26/fabricaVM/blob/main/cap3.png)
+
 - Función ejecutar
 
-Esta función es el núcleo operativo de la máquina de chocolate. Se encarga de iniciar la máquina, porcesar instrucciones del archivo de texto y generar log de todas las acciones realizadas.
+Esta función es el núcleo operativo de la máquina de chocolate. Se encarga de iniciar la máquina, porcesar instrucciones del archivo de texto y generar log de todas las acciones realizadas. Puede verse como el ciclo de procesamiento que recibe las intrucciones y las ejecuta de manera secuencial, como si estuviera desapilando las intrucciones hasta que no quede ninguna.
 
 
 
