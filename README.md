@@ -50,11 +50,11 @@ Al final, la máquina porcesa todas las instrucciones y actualiza los refistros 
 ### Funcionamiento de la máquina virtual 
 
 La máquina virtual sigue un flujo de trabajo automatizado:
-1. Lectura de intrucciones. La máquina toma las instrucciones desde un archivo de texto. Este archivo contiene líneas de texto que especifican tanto los ingredientes a añadir como las acciones a realizar y la creación de chocolate de un tipo específico. Cada línea es interpretada y procesada de manera secuencial, simulando las operaciones de una fábrica real.
-2. Procesamiento de ingredientes. Según las intrucciones de entrada, la máquina extrae los ingredientes necesarios de sus tanques. Para cada ingrediente solicitado, la máquina verifica si hay suficiente cantidad disponible en el inventario. Si hay, la cantidad es descontada del total.
-3. Producción de chocolate. Cuando se reciben las instrucciones de creación, la máquina mezcla los ingredientes necesarias para el tipo de chocolate solicitado (como chocolate negro o chocolate con leche).
-4. Control de inventario. La máquina lleva un registro de la cantidad de cada ingrediente después de cada operación, actualizando el inventarioy generando un informe al final.
-5. Registro de actividad. La máquina genera un registro detallado de cada paso, que incluye los ingredientes añadidios, la cantidad de chocolate porducido y cualquier mensaje de error por falta de ingredientes.
+1. ***Lectura de intrucciones***. La máquina toma las instrucciones desde un archivo de texto. Este archivo contiene líneas de texto que especifican tanto los ingredientes a añadir como las acciones a realizar y la creación de chocolate de un tipo específico. Cada línea es interpretada y procesada de manera secuencial, simulando las operaciones de una fábrica real.
+2. ***Procesamiento de ingredientes***. Según las intrucciones de entrada, la máquina extrae los ingredientes necesarios de sus tanques. Para cada ingrediente solicitado, la máquina verifica si hay suficiente cantidad disponible en el inventario. Si hay, la cantidad es descontada del total.
+3. ***Producción de chocolate***. Cuando se reciben las instrucciones de creación, la máquina mezcla los ingredientes necesarias para el tipo de chocolate solicitado (como chocolate negro o chocolate con leche).
+4. ***Control de inventario***. La máquina lleva un registro de la cantidad de cada ingrediente después de cada operación, actualizando el inventarioy generando un informe al final.
+5. ***Registro de actividad***. La máquina genera un registro detallado de cada paso, que incluye los ingredientes añadidios, la cantidad de chocolate porducido y cualquier mensaje de error por falta de ingredientes.
 
 Con esto, se permite el funcionamiento de la máquina para que actúe de manera automática, simulando un entorno de producción de chocolate en una fábrica.
 
