@@ -5,7 +5,7 @@ La máquina virtual de chocolate es una simulación de los porcesos fundamentale
 
 El objetivo de la máquina es procesar diferentes ingredientes de manera secuencial para crear productos como chocolate con leche y avellanas o chocolate negro con naranja, entre otros. 
 
-Esta máquina permite la somulación paso a paso del proceso porductivo de una fábrica de chocolate, reflejando el estado actual de los ingredientes, y garantizando que se mantengan actualizados después de cada operación.
+Esta máquina permite la simulación paso a paso del proceso productivo de una fábrica de chocolate, reflejando el estado actual de los ingredientes, y garantizando que se mantengan actualizados después de cada operación.
 
 
 ### Estructura del código
@@ -17,11 +17,11 @@ El código está estructurado en una clase llamada FabricaChocolate. En ella se 
   
 La función recibe una línea de texto que representa una instrucción.
 
-Se verifica si la instrucción contiene la palabra "añadir" y si la encuentra se llama al método añadir_ingrediente con la cantidad y el ingrediente.
+\- Se verifica si la instrucción contiene la palabra "añadir" y si la encuentra se llama al método añadir_ingrediente con la cantidad y el ingrediente.
 
-Si encuentra la palabra "crear" se llama al método mezclar_ingredientes, que se encarga de mezclar los ingredientes.
+\- Si encuentra la palabra "crear" se llama al método mezclar_ingredientes, que se encarga de mezclar los ingredientes.
 
-Si se encuentra la palabra "cantidad" se actualiza la cantidad de chocolate producido, suamndo la cantidad especificada.
+\- Si se encuentra la palabra "cantidad" se actualiza la cantidad de chocolate producido, suamndo la cantidad especificada.
 
 ![Codigo](https://github.com/BritneyG26/fabricaVM/blob/main/cap2.png)
 
@@ -45,7 +45,20 @@ Esta función es el núcleo operativo de la máquina de chocolate. Se encarga de
 
 Al final, la máquina porcesa todas las instrucciones y actualiza los refistros que quedan disponibles.
 
-![Codigo]()
+![Codigo](https://github.com/BritneyG26/fabricaVM/blob/main/cap5.png)
+
+### Funcionamiento de la máquina virtual 
+
+La máquina virtual sigue un flujo de trabajo automatizado:
+1. Lectura de intrucciones. La máquina toma las instrucciones desde un archivo de texto. Este archivo contiene líneas de texto que especifican tanto los ingredientes a añadir como las acciones a realizar y la creación de chocolate de un tipo específico. Cada línea es interpretada y procesada de manera secuencial, simulando las operaciones de una fábrica real.
+2. Procesamiento de ingredientes. Según las intrucciones de entrada, la máquina extrae los ingredientes necesarios de sus tanques. Para cada ingrediente solicitado, la máquina verifica si hay suficiente cantidad disponible en el inventario. Si hay, la cantidad es descontada del total.
+3. Producción de chocolate. Cuando se reciben las instrucciones de creación, la máquina mezcla los ingredientes necesarias para el tipo de chocolate solicitado (como chocolate negro o chocolate con leche).
+4. Control de inventario. La máquina lleva un registro de la cantidad de cada ingrediente después de cada operación, actualizando el inventarioy generando un informe al final.
+5. Registro de actividad. La máquina genera un registro detallado de cada paso, que incluye los ingredientes añadidios, la cantidad de chocolate porducido y cualquier mensaje de error por falta de ingredientes.
+
+Con esto, se permite el funcionamiento de la máquina para que actúe de manera automática, simulando un entorno de producción de chocolate en una fábrica.
+
+
 
 
 
